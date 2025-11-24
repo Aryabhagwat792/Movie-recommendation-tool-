@@ -1,24 +1,19 @@
-# Movie-recommendation-tool-
-Movie recommendation project based on genre
-movie-recommendation-tool
-Movie recommendation project based on genre This is a simple pyhtthon based project .Users can input genre and the program will respond giving movies from that genre
+Technical documentation of movie recommendation system
 
-Features Single python file Different genre Simple and easy to run
+Overview
+A simple movie recommendation tool based on one single python code. This gives output based on prompt that is genre given by the user. Movies are recommended instantly based on genre.
 
-##How to run
+Startrup Instructions
+1. Make sure you have python installed(3.x)
+2. Add the code directly into IDLE or VS code
+3. Run the program
 
-You must ahve python
+Code Details
+1.Movies are stored in dictionary i.e. genre list of movies 
+2.Prompt is taken as genre
+3.Checks if genre exists 
+If valid--Print movie list
+If not give error
 
-use the code and run it (before running you need to save the file)
-
-Run (press F5)
-
-enter a genre when prompted and get movie recommendations
-
-Example 🎬 Welcome to Movie Recommendation! 🎬 Enter a genre (Romcom, Romance, Action, Sci-Fi): Romcom
-
-Movies in Romcom genre:
-
-Pretty Woman
-About Time
-Note-You can edit movie list as per your choice No additional files are required
+Output
+Program prints list of recommended movies
